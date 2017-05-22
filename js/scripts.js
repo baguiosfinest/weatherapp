@@ -62,7 +62,7 @@ $(document).ready(function(){
 
     $.ajax({
       dataType: "json",
-      url: "https://api.darksky.net/forecast/932554771d5b5ce80cb36e6f82de4442/" + latlong,
+      url: "https://crossorigin.me/https://api.darksky.net/forecast/932554771d5b5ce80cb36e6f82de4442/" + latlong,
       success: getWeatherDetails
     });
   }
