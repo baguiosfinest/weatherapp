@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.png">
+
+    <title>FCC - Local Weather</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/weather-icons.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_XgG7p0MjWXZtJfyvtcPk9dABWqMQa6A"></script>
+  </head>
+
+  <body>
+
+
+    <div class="container">
+      <div class="jumbotron text-center">
+        <h1 class="display-3">Welcome to my Weather App!</h1>
+        <p class="lead">This is a simple weather app for my project on FCC.</p>
+
+      </div><!--// end .jumbotron -->
+      <div class="row">
+        <aside class="col-md-6">
+          <div id="current">
+            <header>
+              <h3 class="address"></h3>
+              <p class="asof">as of <span></span></p>
+            </header>
+
+            <div class="row">
+              <aside class="col-md-8">
+                <h2 class="temp"><span class="num"></span> °<span class="deg far">F</span></h2>
+                <p class="summary">PARTLY CLOUDY</p>
+                <p class="feels">feels like <span class="fnum"></span> ° <span class="deg">F</span></p>
+
+              </aside>
+              <aside class="col-md-4">
+                <span class="cloud-icon"><i class="wi"></i></span>
+              </aside>
+            </div><!--// end .row -->
+          </div><!--// end #current -->
+        </aside>
+        <aside class="col-md-6">
+          <div id="map"></div><!--// end #map -->
+        </aside>
+      </div><!--// end .row -->
+
+
+
+
+
+
+
+
+    </div><!-- /.container -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <span class="text-muted text-center">&copy;Copyright 2017 Sonny Tambiac</span>
+          </div>
+          <div class="col-md-6 text-right powered">
+            <a target="_blank" href="https://darksky.net/poweredby/"><img src="images/poweredby.png" /></a>
+          </div>
+        </div><!--// end .row -->
+
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/scripts.js"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,105 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  padding-top: 50px;
+  background: #FFFFFF;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-clear-day{
+  background-image: url("../images/bg-clear-day.jpg");
+}
+.bg-clear-night{
+  background-image: url("../images/bg-clear-night.jpg");
+}
+.bg-rain{
+  background-image: url("../images/bg-rain.jpg");
+}
+.bg-snow{
+  background-image: url("../images/bg-snow.jpg");
+}
+.bg-wind{
+  background-image: url("../images/bg-wind.jpg");
+}
+.bg-fog{
+  background-image: url("../images/bg-fog.jpg");
+}
+.bg-cloudy{
+  background-image: url("../images/bg-cloudy.jpg");
+}
+.bg-sleet,
+.bg-partly-cloudy-day{
+  background-image: url("../images/bg-partly-cloudy.jpg");
+}
+.bg-partly-cloudy-night{
+  background-image: url("../images/bg-partly-cloudy-night.jpg");
+}
+.bg-thunderstorm{
+  background-image: url("../images/bg-thunderstorm.jpg");
+}
+.bg-tornado{
+  background-image: url("../images/bg-tornado.jpg");
+}
+
+
+/**
+**
+** #FFFFFF,#157D9A,#22AAC4,#9299A1,#233F4A
+**/
+
+
+#map{
+  width: 100%;
+  height: 400px;
+  background: rgba(255,255,255,.6);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#current{
+  max-width: 500px;
+  margin: 0 auto 20px;
+  background: rgba(255,255,255,.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+#current header{
+  text-align: center;
+
+}
+
+.cloud-icon{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.feels .fdeg,
+.temp .deg{
+  cursor: pointer;
+  font-weight: bold;
+  color: #00689D;
+}
+
+.powered img{
+  max-width: 100px;
+  height: auto;
+}
+
+.hidden{ display: none; visibility: hidden; }
+
+/* Footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
